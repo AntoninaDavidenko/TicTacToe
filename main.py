@@ -64,6 +64,7 @@ def if_won():
 
 # асинхронная функция
 async def update_board(manager, data):
+    # зменшуємо id на 1, щоб id клітинок були такими однаковими
     ind = int(data['cell']) - 1
     # завершення підготовки та перехід у гру
     data['init'] = False
@@ -148,3 +149,5 @@ async def websocket_endpoint(websocket: WebSocket):
         manager.disconnect(websocket)
     except:
         pass
+
+
