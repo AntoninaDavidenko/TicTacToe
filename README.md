@@ -1,5 +1,5 @@
 # TicTacToe game
-This is browser TicTacToe game developew using FastAPI framework and websokets. Two users join the game and the application automatically assigns an X to the first player. The application updates the board after each move and ends the game if there is a win or a draw.
+This is browser TicTacToe game developed using FastAPI framework and websokets. Two users join the game and the application automatically assigns an X to the first player. The application updates the board after each move and ends the game if there is a win or a draw.
 <h1>Screenshots</h3> 
 <img src=https://github.com/user-attachments/assets/42bafa36-cb2c-4179-a3cf-4c03909425b5 />
 <img src=https://github.com/user-attachments/assets/15023374-4115-472f-8fdc-b3d8598dab86 />
